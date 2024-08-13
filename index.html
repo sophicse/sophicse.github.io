@@ -1,13 +1,78 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>sophicse</title>
+        <style>
+            body {
+                margin: 0;
+                height: 200vh; /* Set body height to enable scrolling */
+            }
+            .header {
+                background-color: pink;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100px;
+            }
+            .header img {
+                margin: 0 10px;
+            }
+            .header b {
+                font-size: 35px;
+                font-family: 'Perpetua', serif;
+            }
+            .header2 {
+                background-color: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 70px;
+            }
+            .gradient {
+                background: linear-gradient(0deg, #e17878, #9198e5);
+                height: 100vh; /* Covers a quarter of the viewport height */
+            }
+            .content {
+                background-color: #ffffff;
+                height: 10vh; /* Fills the rest of the page with white */
+            }
+        </style>
     </head>
     <body>
-        <h1>Welcome to sophicse</h1>
-        <p>hello there </p>
-        <img src="images/calicocat.gif" alt="Calicocat">
-        <a href="test.html">Check this out!</a>
-
+        <div class="gradient">
+            <header class="header">
+                <img src="images/clearcalico.gif" alt="Calicocat">
+                <b>SOPHICSE</b>
+                <img src="images/clearcalico.gif" alt="Calicocat">
+            </header>
+            <header class="header2">
+                <a href="home.html">
+                    <button>Home</button>
+                </a>
+                <b>&ensp;</b>
+                <a href="home.html">
+                    <button>Coding</button>
+                </a>
+                <b>&ensp;</b>
+                <a href="home.html">
+                    <button>Art</button>
+                </a>
+                <b>&ensp;</b>
+                <a href="home.html">
+                    <button>Writing</button>
+                </a>
+                <b>&ensp;</b>
+            </header>
+        </div>
+        <!--
+        <div class="content">
+            <p>hello there</p>
+            <img src="images/calicocat.gif" alt="Calicocat">
+            <a href="test.html">Check this out!</a>
+        </div>
+        -->
     </body>
 </html>
+
+
 
